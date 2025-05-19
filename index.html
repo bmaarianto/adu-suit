@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gunting Batu Kertas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white shadow-lg rounded-xl p-8 w-full max-w-md text-center">
+        <h1 class="text-2xl font-bold mb-6">Gunting Batu Kertas ✌️</h1>
+
+        <div class="flex justify-around mb-6">
+            <button onclick="play('✌️')"
+                class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">Gunting</button>
+            <button onclick="play('✊')"
+                class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded">Batu</button>
+            <button onclick="play('✋')"
+                class="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-2 px-4 rounded">Kertas</button>
+        </div>
+
+        <div id="result" class="text-xl font-semibold mb-2">Pilih untuk mulai bermain</div>
+        <div id="choices" class="text-gray-700">Kamu: - | Komputer: -</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
