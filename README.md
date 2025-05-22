@@ -12,8 +12,8 @@
 ## 🧪 Cara Menjalankan
 
 1. Clone repositori ini:
-   ```bash
-   git clone https://github.com/username/adu-suit.git
+   ```
+   https://github.com/bmaarianto/adu-suit.git
    ```
 2. Buka file index.html di browser favoritmu.
 3. Mulai bermain!
