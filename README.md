@@ -13,7 +13,7 @@
 
 1. Clone repositori ini:
    ```
-   https://github.com/bmaarianto/adu-suit.git
+   git clone https://github.com/bmaarianto/adu-suit.git
    ```
 2. Buka file index.html di browser favoritmu.
 3. Mulai bermain!
